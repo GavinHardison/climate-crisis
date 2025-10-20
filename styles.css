@@ -216,6 +216,12 @@ body {
         width: 100%;
     }
 
+    #nav-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 60%;
+    }
+
     #hamburger-button {
         font-size: 30px;
         background: none;
@@ -252,7 +258,7 @@ body {
         margin-left: 0;
         width: 90vw;
         margin-top: 15vh;
-        height: 500px;
+        height: 525px;
     }
 
     #content {
@@ -295,7 +301,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
     #header {
         height: 400px;
         font-size: 16px;
@@ -331,7 +337,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
     #header {
         height: 500px;
         font-size: 14px;
@@ -367,7 +373,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 801px) {
     #header {
         height: 650px;
         font-size: 14px;
@@ -403,7 +409,7 @@ body {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 601px) {
     #header {
         height: 700px;
         font-size: 14px;

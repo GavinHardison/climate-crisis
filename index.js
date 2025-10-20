@@ -1,6 +1,6 @@
 function openNav() {
     document.getElementById("nav-list").style.visibility = "visible";
-    document.getElementById("navbar").style.height = "70vh";
+    document.getElementById("navbar").style.height = "63vh";
 }
 
 function closeNav() {
