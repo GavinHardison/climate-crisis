@@ -27,7 +27,7 @@ body {
 
 #navbar {
     width: 15%;
-    height: 70vh;
+    height: 53vh;
     background-color: #F7E1D7;
     border-radius: 20px;
     position: fixed;
@@ -148,4 +148,146 @@ body {
 
 .fact-info-2 {
     font-style: italic;
+}
+
+#nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 55vw;
+}
+
+#hamburger-button {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    visibility: hidden;
+}
+
+#close-button {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    #navbar {
+        width: 90vw;
+        height: 9vh;
+        position: fixed;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    #nav-list {
+        visibility: hidden;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fact-div {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .fact-figure, .fact-text {
+        width: 100%;
+    }
+
+    #hamburger-button {
+        font-size: 30px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        margin: 10px 20px;
+        visibility: visible;
+    }
+
+    #close-button {
+        font-size: 30px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        margin: 10px 20px;
+        visibility: visible;
+    }
+
+    #nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header {
+        position: flex;
+        margin-left: 0;
+        width: 90vw;
+        margin-top: 15vh;
+        height: 500px;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    #description {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .fact-text {
+        padding: 0;
+    }
+
+    #footer {
+        padding-bottom: 5px;
+    }
+
+    .fact-title {
+        font-size: 28px;
+    }
+
+    .fact-info-1, .fact-info-2 {
+        font-size: 16px;
+    }
+
+    .fig-caption {
+        font-size: 14px;
+    }
+
+    #footer-text {
+        font-size: 14px;
+    }
 }
