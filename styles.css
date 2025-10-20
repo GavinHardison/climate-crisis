@@ -225,6 +225,7 @@ body {
         border-radius: 5px;
         margin: 10px 20px;
         visibility: visible;
+        -webkit-tap-highlight-color: transparent;
     }
 
     #close-button {
@@ -237,6 +238,7 @@ body {
         border-radius: 5px;
         margin: 10px 20px;
         visibility: visible;
+        -webkit-tap-highlight-color: transparent;
     }
 
     #nav-list {
