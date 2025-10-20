@@ -27,11 +27,12 @@ body {
 
 #navbar {
     width: 15%;
-    height: 53vh;
+    height: 500px;
     background-color: #F7E1D7;
     border-radius: 20px;
     position: fixed;
     border: 1px solid black;
+    min-width: 200px;
 }
 
 #nav-title {
@@ -54,7 +55,7 @@ body {
 
 #description {
     color: #DEDBD2;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     width: 80%;
     text-align: center;
@@ -291,5 +292,148 @@ body {
 
     #footer-text {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #header {
+        height: 400px;
+        font-size: 16px;
+        margin-left: 250px;
+    }
+
+    .fact-div {
+        margin-left: 250px;
+        flex-direction: column;
+    }
+
+    .fact-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .fact-figure {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 60px;
+    }
+
+    #navbar {
+        height: 575px;
+    }
+
+    body {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #header {
+        height: 500px;
+        font-size: 14px;
+        margin-left: 250px;
+    }
+
+    .fact-div {
+        margin-left: 250px;
+        flex-direction: column;
+    }
+
+    .fact-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .fact-figure {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 48px;
+    }
+
+    #navbar {
+        height: 575px;
+    }
+
+    body {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #header {
+        height: 650px;
+        font-size: 14px;
+        margin-left: 250px;
+    }
+
+    .fact-div {
+        margin-left: 250px;
+        flex-direction: column;
+    }
+
+    .fact-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .fact-figure {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+
+    #navbar {
+        height: 575px;
+    }
+
+    body {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        height: 700px;
+        font-size: 14px;
+        margin-left: 250px;
+    }
+
+    .fact-div {
+        margin-left: 250px;
+        flex-direction: column;
+    }
+
+    .fact-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .fact-figure {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+
+    #navbar {
+        height: 575px;
+    }
+    body {
+        padding-left: 30px;
+        padding-top: 30px;
     }
 }
